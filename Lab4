@@ -1,0 +1,11 @@
+import random
+
+def random_integer_list(size, start, end):
+    return [random.randint(start, end) for _ in range(size)]
+
+size =  24
+start = 11
+end = 66
+
+random_list = random_integer_list(size, start, end)
+print(random_list)
